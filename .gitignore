@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Large data files
+*.csv
+*.json
+*.xml
+*.pdf
+*.txt
+*.zip
+*.gz
+*.tar
+*.log
+
+# But keep our specific analysis files
+!obbb_sections_summary.csv
+!obbb_sections_full.json
+!obbb_analysis_report.md
+!README.md
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# API keys and secrets
+config.py
+secrets.json
+api_keys.txt
+.env.local
+.env.production
+
+# Large downloads
+downloads/
+data/raw/
+*.bill
+*.legislation
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+logs/
+
+# Test files
+test_*.py
+*_test.py
+tests/temp/
